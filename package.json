@@ -1,0 +1,50 @@
+{
+   "name": "countries",
+   "version": "1.0.0",
+   "license": "MIT",
+   "private": true,
+   "type": "module",
+   "scripts": {
+      "build:dev": "npx nuxi dev",
+      "build:prod": "npx nuxi build",
+      "build:ssr": "npx nuxi generate",
+      "build:preview": "nuxt preview",
+      "build:start": "node .output/server/index.mjs",
+
+      "nuxt:analuze": "npx nuxi analyze",
+      "nuxt:clean": "npx nuxi cleanup",
+      "nuxt:info": "npx nuxi info",
+      "nuxt:upgrade": "npx nuxi upgrade"
+   },
+   "devDependencies": {
+      "@types/node": "^20.11.30",
+
+      "vue": "^3.4.21",
+      "nuxt": "^3.11.1",
+      "nuxt-security": "1.2.2",
+      "nuxt-purgecss": "^2.0.0",
+
+      "@nuxtjs/eslint-module": "^4.1.0",
+      "@pinia/nuxt": "^0.5.1",
+
+      "eslint": "^8.57.0",
+      "eslint-plugin-import": "^2.29.1",
+      "eslint-plugin-vue": "^9.23.0",
+      "eslint-plugin-security-node": "^1.1.4",
+
+      "postcss": "^8.4.38",
+      "postcss-combine-duplicated-selectors": "^10.0.3",
+      "postcss-combine-media-query": "^1.0.1",
+
+      "cssnano": "^6.1.1",
+      "sass": "^1.72.0",
+      "prettier": "^3.2.5",
+      "prettier-plugin-tailwindcss": "^0.5.12",
+      "tailwindcss": "^3.4.1",
+      "dompurify": "^3.0.11"
+   },
+   "dependencies": {
+      "pinia": "^2.1.7"
+   },
+   "packageManager": "yarn@1.22.21+sha1.1959a18351b811cdeedbd484a8f86c3cc3bbaf72"
+}

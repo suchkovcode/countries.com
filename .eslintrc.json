@@ -1,0 +1,62 @@
+{
+   "root": true,
+   "env": {
+      "es6": true,
+      "browser": true,
+      "commonjs": true,
+      "node": true
+   },
+   "extends": ["plugin:vue/vue3-recommended", "plugin:security-node/recommended"],
+   "plugins": ["import", "security-node"],
+   "parserOptions": {
+      "ecmaVersion": 2020,
+      "sourceType": "module"
+   },
+
+   "rules": {
+      "vue/html-indent": ["error", 3],
+      "vue/multi-word-component-names": [
+         "error",
+         {
+            "ignores": ["default", "index", "error", "[slug]"]
+         }
+      ],
+      "vue/max-attributes-per-line": [
+         "error",
+         {
+            "singleline": {
+               "max": 8
+            }
+         }
+      ],
+      "vue/html-closing-bracket-newline": [
+         "error",
+         {
+            "singleline": "never",
+            "multiline": "never"
+         }
+      ],
+
+      "vue/html-self-closing": [
+         "error",
+         {
+            "html": {
+               "void": "any",
+               "normal": "any",
+               "component": "any"
+            },
+            "svg": "never",
+            "math": "always"
+         }
+      ],
+
+      "vue/singleline-html-element-content-newline": [
+         "error",
+         {
+            "ignoreWhenNoAttributes": true,
+            "ignoreWhenEmpty": true,
+            "ignores": ["NuxtLink", "p", "span", "h3", "h2", "h1", "button", "li", "a", "th", "td", "path", "label"]
+         }
+      ]
+   }
+}
