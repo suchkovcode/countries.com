@@ -23,7 +23,7 @@
 
 Деплой на Railway
 
-Query параметр зарисываются и можно пошерить. 
+Query параметр записываются и можно пошерить. 
 
 https://countriescom-production.up.railway.app/?search=cyprus
 
