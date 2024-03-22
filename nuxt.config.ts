@@ -47,9 +47,9 @@ export default defineNuxtConfig({
    },
 
    experimental: {
-      componentIslands: true,
+      componentIslands: false,
       payloadExtraction: false,
-      headNext: true,
+      headNext: false,
       appManifest: true,
       renderJsonPayloads: true,
       crossOriginPrefetch: true,
