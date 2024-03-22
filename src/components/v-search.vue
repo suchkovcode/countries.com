@@ -15,7 +15,7 @@
             placeholder="Search..." />
          <button
             type="submit"
-            class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 absolute bottom-2.5 end-2.5 rounded-lg px-4 py-2 text-sm font-medium focus:outline-none focus:ring-4">
+            class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-blue-300 absolute bottom-2.5 end-2.5 rounded-lg px-4 py-2 text-sm font-medium focus:outline-none focus:ring-4">
             Submit
          </button>
       </div>

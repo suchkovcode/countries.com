@@ -11,7 +11,7 @@
          </li>
          <li aria-current="page">
             <div class="flex items-center">
-               <svg class="mx-1 h-3 w-3 text-gray-400 rtl:rotate-180" aria-hidden="true">
+               <svg class="mx-1 h-3 w-3 text-gray-400" aria-hidden="true">
                   <use xlink:href="/img/sprite.svg#icon-arrow"></use>
                </svg>
                <span class="ms-1 text-sm font-medium text-gray-500 md:ms-2">{{ country }}</span>
